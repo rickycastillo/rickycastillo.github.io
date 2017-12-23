@@ -1,0 +1,130 @@
+/*! main.css
+ *
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ *
+ * Originally only contained first 4 objects and bootstrap.min. Apart from that, made from scratch. 
+ * 
+ */
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+}
+
+header {
+  padding: 120px 0 100px;
+}
+
+body {
+	background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 120px 0 100px;
+  }
+}
+
+section {
+  padding: 50px 0;
+}
+
+strong {
+	font-weight: 800;
+}
+
+.navbar-text {
+	padding: 0;
+}
+.quote {
+	font-size: 150%;
+	margin-top: -20px;
+	text-align: left;
+	font-family: 'Bad Script', cursive;
+}
+.bg-color {
+	background-color: #000;
+	border-bottom: 1px solid red;
+}
+.bg-footer {
+	background-color: #000;
+	border-top: 1px solid red;
+}
+.name-header {
+	width: 70%;
+	height: 70%;
+}
+.header-bg {
+	padding-bottom: 100px;
+	background-image: url("../img/header-bg.png");
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	display: contents;
+}
+.resume-bg {
+	background-color: #fff;
+	border-radius: 10px;
+	margin-top: -50px;
+	margin-left: -100px;
+	margin-right: -100px;
+	opacity: 0.8;
+}
+.resume-header {
+	background-image: url("../img/resume-header.png");
+	background-size: 20%;
+	background-position: left;
+	background-repeat: no-repeat;
+	text-align: left;
+	padding-left: 180px;
+	padding-top: 20px; 
+	padding-bottom: 20px;
+}
+.resume-text {
+	color: #000;
+	text-align: left;
+}
+.social-button {
+	border-radius: 50%;
+	transition: transform .3s ease-in-out;
+	margin: 20px;
+	width: 50px;
+	height: 50px;
+}
+.social-button:hover {
+		-webkit-transform: scale(1.4);
+		-moz-transform: scale(1.4);
+		-o-transform: scale(1.4);
+		transform: scale(1.4);
+}
+.my-picture {
+	margin-left: 30%;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.my-picture:hover {
+	border-radius: 10%;
+}
+.bio-text {
+	font-size: 20px;
+}
+
+@media (min-width: 1080px) {
+  
+}
+
+@media (min-width: 720px) {
+  
+}
