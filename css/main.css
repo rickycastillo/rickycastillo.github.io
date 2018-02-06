@@ -52,13 +52,12 @@ strong {
 }
 .header-bg {
 	font-size: 150%;
-	padding-bottom: 50px;
-	padding-top: 50px;
 	background-image: url("../img/header-bg.png");
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: center top;
 	margin: 0 auto;
+	margin-top: 10px;
 	text-align: center;
 
 }
