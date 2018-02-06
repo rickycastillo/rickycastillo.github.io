@@ -59,6 +59,8 @@ strong {
 	margin: 0 auto;
 	margin-top: 10px;
 	text-align: center;
+	overflow: visible;
+	display: block;
 
 }
 .resume-bg {
