@@ -51,7 +51,7 @@ strong {
 	height: 70%;
 }
 .header-bg {
-	font-size: 200%;
+	font-size: 150%;
 	background-image: url("../img/header-bg.png");
 	background-size: 50%;
 	background-repeat: no-repeat;
@@ -106,6 +106,7 @@ strong {
 	width: 300px;
 	height: 300px;
 	margin: 0 auto;
+	text-align: center;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
