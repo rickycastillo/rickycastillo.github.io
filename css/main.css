@@ -26,16 +26,6 @@ body {
     font-size: 20px;
 }
 
-@media (min-width: 992px) {
-  header {
-    padding: 120px 0 100px;
-  }
-}
-
-section {
-  padding: 50px 0;
-}
-
 strong {
 	font-weight: 800;
 }
@@ -75,8 +65,8 @@ strong {
 	background-color: #fff;
 	border-radius: 10px;
 	margin-top: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
 	opacity: 0.8;
 }
 .resume-header {
