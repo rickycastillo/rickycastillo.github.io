@@ -58,7 +58,7 @@ strong {
 	background-position: center top;
 	margin: 0 auto;
 	margin-top: 10px;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 	text-align: center;
 	overflow: visible;
 	display: block;
@@ -106,7 +106,6 @@ strong {
 	width: 300px;
 	height: 300px;
 	margin: 0 auto;
-	padding-left: 20%;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
