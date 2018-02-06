@@ -62,10 +62,11 @@ strong {
 	height: 70%;
 }
 .header-bg {
+	font-size: 150%;
 	text-align: center;
 	padding-bottom: 100px;
 	background-image: url("../img/header-bg.png");
-	background-size: 80%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center top;
 	display: contents;
