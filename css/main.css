@@ -123,3 +123,7 @@ strong {
 		
 	}
 }
+.resume-list {
+	list-style: none;
+	padding-left: -20%;
+}
