@@ -19,7 +19,8 @@ header {
 body {
 	background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
-    background-attachment: initial;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Roboto Condensed', sans-serif;
     color: #fff;
     font-size: 20px;
