@@ -61,6 +61,7 @@ strong {
 	overflow: visible;
 	align-content: center;
 	text-align: center;
+	justify-content: center;
 }
 .resume-bg {
 	background-color: #fff;
