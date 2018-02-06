@@ -57,11 +57,9 @@ strong {
 	background-size: 150%;
 	background-repeat: no-repeat;
 	background-position: center top;
-	display: contents;
-	overflow: visible;
-	align-content: center;
+	margin: 0 auto;
 	text-align: center;
-	justify-content: center;
+
 }
 .resume-bg {
 	background-color: #fff;
