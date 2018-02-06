@@ -58,6 +58,7 @@ strong {
 	background-position: center top;
 	margin: 0 auto;
 	margin-top: 10px;
+	padding-bottom: 20px;
 	text-align: center;
 	overflow: visible;
 	display: block;
@@ -72,7 +73,7 @@ strong {
 	opacity: 0.8;
 }
 .resume-header {
-	font-size: 120%;
+	font-size: 150%;
 	padding-left: 30%;
 	background-image: url("../img/resume-header.png");
 	background-size: 20%;
@@ -105,8 +106,7 @@ strong {
 	width: 300px;
 	height: 300px;
 	margin: 0 auto;
-	align-content: center;
-
+	padding-left: 20%;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
 	-o-transition: all .3s ease-in-out;
@@ -118,14 +118,13 @@ strong {
 .bio-text {
 	font-size: 15px;
 }
-
+.resume-list {
+	list-style: none;
+	padding-left: -20%;
+}
 
 @media (min-width: 992px) {
 	.quote {
 		
 	}
-}
-.resume-list {
-	list-style: none;
-	padding-left: -20%;
 }
