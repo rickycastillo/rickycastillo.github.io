@@ -8,8 +8,6 @@
  * 
  */
 h1,h2,h3,h4,h5,h6 {
-	align-content: center;
-	text-align: center;
 	font-family: 'Nunito', sans-serif;
 }
 
@@ -61,6 +59,8 @@ strong {
 	background-position: center top;
 	display: contents;
 	overflow: visible;
+	align-content: center;
+	text-align: center;
 }
 .resume-bg {
 	background-color: #fff;
@@ -101,6 +101,7 @@ strong {
 }
 .my-picture {
 	border-radius: 50%;
+	align-content: center;
 	width: 300px;
 	height: 300px;
 
@@ -113,7 +114,7 @@ strong {
 	border-radius: 10%;
 }
 .bio-text {
-	font-size: 10px;
+	font-size: 15px;
 }
 
 
