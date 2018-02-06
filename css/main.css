@@ -106,8 +106,7 @@ strong {
 	margin-left: 20px;
 	width: 200px;
 	height: 200px;
-	align-content: center;
-	text-align: center;
+	display: block;
 	margin: 0 auto;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
