@@ -124,9 +124,41 @@ strong {
 	list-style: none;
 	padding-left: -20%;
 }
-
-@media (min-width: 992px) {
+/* Samsung S5 */
+@media (min-width: 360px) {
 	.quote {
-		
+		font-size: 80%;
+	}
+	.bio-text {
+		font-size: 20px;
+	}
+}
+}
+
+@media (min-width: 768px) {
+	.quote {
+		font-size: 120%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.quote {
+		font-size: 150%;
+	}
+	.bio-text {
+		font-size: 25px;
+	}
+	.resume-bg {
+		margin-left: -50px;
+		margin-right: -50px;
+	}
+	.resume-header {
+		margin-left: 10px;
+		padding-left: 200px;
+		background-size: 30%;
+	}
+	.resume-text {
+		font-size: 100%;
+		margin-left: 10px;
 	}
 }
