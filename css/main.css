@@ -12,14 +12,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 header {
-  padding: 120px 0 100px;
-}
-
-body {
 	background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+ 	padding: 120px 0 100px;
+}
+
+body {
     font-family: 'Roboto Condensed', sans-serif;
     color: #fff;
     font-size: 20px;
@@ -52,13 +52,15 @@ strong {
 }
 .header-bg {
 	font-size: 150%;
+	font-weight: 600;
 	background-image: url("../img/header-bg.png");
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: center top;
 	margin: 0 auto;
 	margin-top: 20px;
-	padding-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 100px;
 	text-align: center; 
 	overflow: visible;
 	display: block;
@@ -74,9 +76,9 @@ strong {
 }
 .resume-header {
 	font-size: 150%;
-	padding-left: 30%;
+	padding-left: 20%;
 	background-image: url("../img/resume-header.png");
-	background-size: 20%;
+	background-size: 10%;
 	background-position: left;
 	background-repeat: no-repeat;
 	text-align: left;
@@ -121,9 +123,33 @@ strong {
 	text-align: center;
 }
 .resume-list {
+	font-size: 80%;
 	list-style: none;
 	padding-left: -20%;
 }
+.set-background {
+	background-color: #000000;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+}
+.resume {
+	background-image: url("../img/background2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.projects-button {
+	border: none;
+	background-color: #ffffff;
+	transition: 0.5s;
+}
+.projects-button:hover {
+	border: none;
+	background-color: red;
+	color: #ffffff;
+	transform: scale(1.2);
+}
+
 /* Samsung S5 */
 @media (min-width: 360px) {
 	.quote {
@@ -140,6 +166,7 @@ strong {
 	}
 }
 
+/*	Regular Laptop */
 @media (min-width: 1024px) {
 	.quote {
 		font-size: 150%;
@@ -154,11 +181,16 @@ strong {
 	.resume-header {
 		margin-left: 10px;
 		padding-left: 200px;
-		background-size: 30%;
+		background-size: 20%;
 	}
 	.resume-text {
 		font-size: 100%;
 		margin-left: 10px;
 		margin-right: 0px;
+	}
+	.header-bg {
+		font-size: 200%;
+		font-weight: 600;
+		padding-top: 20px;
 	}
 }
